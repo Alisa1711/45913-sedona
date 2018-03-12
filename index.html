@@ -21,7 +21,7 @@
 
       <section class="welcome">
         <h1 class="visually-hidden">Великолепный отдых в Седоне</h1>
-        <img src="img\welcome_to_sedona.png" width="458" height="352" alt="welcome to the gorgeous Sedona">
+        <img src="img/welcome_to_sedona.png" width="458" height="352" alt="welcome to the gorgeous Sedona">
       </section>
 
       <section class="reasons">
@@ -71,10 +71,32 @@
       </section>
 
       <section class="appointment">
-        <h2 class="visually-hidden">Подбор лучших гостиниц</h2>
         <p>Заинтересовались?</p>
-        <p class="appointment-info">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <!-- Здесь будет форма -->
+        <p class="appointment-info">Укажите предполагаемые даты поездки,
+          и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <h2 class="form-title">Поиск гостиницы в Седоне</h2>
+        <form class="search-hotels-form" action="https://echo.htmlacademy.ru" method="get">
+          <p>
+            <label>Дата заезда:
+              <input type="date" name="arrival-date" value="2017-04-24" placholder="24 Апреля 2017">
+            </label>
+          </p>
+          <p>
+            <label>Дата выезда:
+              <input type="date" name="departure-date" value="2017-07-24" placholder="4 июля 2017">
+            </label>
+          </p>
+          <p>
+            <label>Взрослые:
+              <input type="number" name="adult-count" value="2">
+            </label>
+          </p>
+          <p>
+            <label>Дети:
+              <input type="number" name="children-count" value="0">
+            </label>
+          </p>
+          <button class="button" type="submit">Найти</button>
       </section>
     </main>
 
@@ -87,7 +109,7 @@
       </ul>
       <p class="footer-copyright">Website by</p>
       <a class="copyright-logo" href="https://htmlacademy.ru">
-        <img src="img\logo-htmlacademy.svg" width="115" height="41" alt="Логотип htmlacademy">
+        <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип htmlacademy">
       </a>
     </footer>
 
