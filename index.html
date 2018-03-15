@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
+
   <body>
     <header class="main-header">
       <nav class="main-navigation">
@@ -17,7 +21,7 @@
       </nav>
     </header>
 
-    <main class="contanier">
+    <main class="container center">
 
       <section class="welcome">
         <h1 class="visually-hidden">Великолепный отдых в Седоне</h1>
@@ -25,29 +29,29 @@
       </section>
 
       <section class="reasons">
-        <p class="slogan">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="header">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
         <h2>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h2>
         <ul class="reasons-list">
-          <li class="reasons-item featured">
+          <li class="reasons-item marked img-right">
             <h3>Настоящий городок</h3>
             <p>— №1 —</p>
             <p>Седона не аттракцион для туристов, там течет своя жизнь</p>
                 <ul class="features-list">
-                  <li class="features-item">
+                  <li class="features-item housing">
                     <h3>Жилье</h3>
                     <p>Рекомендуем пожить в настоящем мотеле, все как в кино</p>
                   </li>
-                  <li class="features-item">
+                  <li class="features-item food">
                     <h3>Еда</h3>
                     <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                   </li>
-                  <li class="features-item">
+                  <li class="features-item souvenirs">
                     <h3>Сувениры</h3>
                     <p>Не только китайского происхождения</p>
                   </li>
                 </ul>
             </li>
-            <li class="reasons-item featured">
+            <li class="reasons-item marked img-left">
               <h3>Там есть мост дьявола</h3>
               <p>— №2 —</p>
               <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
@@ -72,35 +76,35 @@
 
       <section class="appointment">
         <h2 class="visually-hidden">Найдите гостиницу в Седоне</h2>
-        <p>Заинтересовались?</p>
-        <p class="appointment-info">Укажите предполагаемые даты поездки,
+        <p class="appointment-header">Заинтересовались?</p>
+        <p>Укажите предполагаемые даты поездки,
           и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <form class="search-hotels-form" action="https://echo.htmlacademy.ru" method="get">
-          <a href="#">Поиск гостиницы в Седоне</a>
-          <p>
+          <a href="#" class="button big brown">Поиск гостиницы в Седоне</a>
+          <p class="appointment-item">
             <label>Дата заезда:
               <input type="text" name="arrival-date" value="24 Апреля 2017">
             </label>
           </p>
-          <p>
+          <p class="appointment-item">
             <label>Дата выезда:
               <input type="text" name="departure-date" value="4 июля 2017">
             </label>
             <button class="calendar" type="button">Календарь</button>
           </p>
-          <p>
-            <label for="adult-count">Взрослые:</label>
+          <p class="appointment-item">
+            <label for="adult-count">Взрослые: </label>
             <button class="minus" type="button">-</button>
             <input type="text" name="adult-count" id="adult-count" value="2">
             <button class="plus" type="button">+</button>
           </p>
-          <p>
-            <label for="children-count">Дети:</label>
+          <p class="appointment-item">
+            <label for="children-count">Дети: </label>
             <button class="minus" type="button">-</button>
             <input type="text" name="children-count" id="children-count" value="0">
             <button class="plus" type="button">+</button>
           </p>
-          <button class="button" type="submit">Найти</button>
+          <button class="button big" type="submit">Найти</button>
         </form>
       </section>
     </main>
