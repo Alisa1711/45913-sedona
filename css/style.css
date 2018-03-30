@@ -10,6 +10,15 @@ body {
   background-color: #f2f2f2;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -36,10 +45,6 @@ input[type="radio"].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-a {
-  text-decoration: none;
 }
 
 .main-navigation {
@@ -207,23 +212,22 @@ p.reason-number {
 }
 
 .img-right {
+  padding-right: 800px;
   background-image: url("../img/reason_background_01.jpg");
   background-position: right;
   background-repeat: no-repeat;
 }
 
-li.img-right {
-  padding-right: 800px;
-}
-
 .img-left {
+  padding-left: 800px;
   background-image: url("../img/reason_background_02.jpg");
   background-position: left;
   background-repeat: no-repeat;
 }
 
-li.img-left {
-  padding-left: 800px;
+.img-left p {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .features-list {
@@ -337,7 +341,7 @@ label.children {
   text-transform: uppercase;
 }
 
-.appointment-item input.count {
+input.count {
   width: 114px;
   text-align: center;
 }
