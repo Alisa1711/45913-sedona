@@ -368,6 +368,12 @@ input.count {
   cursor: pointer;
 }
 
+.mozilla-fix {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+
 .appointment-item button:hover path {
   fill: #000000;
 }
@@ -411,8 +417,8 @@ button.minus {
 }
 
 .search-button {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  position: relative;
+  padding: 16px;
 }
 
 .map {
