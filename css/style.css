@@ -127,22 +127,18 @@ input[type="radio"].visually-hidden {
   vertical-align: bottom;
 }
 
-.text-block p {
-  margin: 0;
-  margin-bottom: 30px;
+.text-block {
   padding-left: 300px;
   padding-right: 300px;
 }
 
 .reasons {
-  margin-bottom: 55px;
-}
-
-.text-block {
-  margin-bottom: 53px;
+  margin-bottom: 50px;
 }
 
 .header {
+  margin: 0;
+  margin-bottom: 30px;
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
@@ -151,6 +147,7 @@ input[type="radio"].visually-hidden {
 
 .reasons h2 {
   margin: 0;
+  margin-bottom: 53px;
   padding: 0;
   font-size: 14px;
   font-weight: 400;
@@ -274,12 +271,19 @@ p.reason-number {
   color: #000000;
 }
 
-p.appointment-header {
-  margin-bottom: 32px;
+.appointment-header {
+  margin: 0;
+  margin-bottom: 24px;
   font-size: 30px;
-  line-height: 24px;
+  line-height: 36px;
   font-weight: 700;
   color: #000000;
+}
+
+.appointment-header + p {
+  margin: 0;
+  margin-bottom: 48px;
+  line-height: 24px;
 }
 
 .appointment-form {
