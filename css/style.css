@@ -324,6 +324,7 @@ p.reason-number {
   width: 112px;
   font-weight: 700;
   line-height: 26px;
+  vertical-align: middle;
   color: #000000;
 }
 
@@ -340,6 +341,7 @@ label.children {
   margin-left: -4px;
   font: inherit;
   font-weight: 700;
+  vertical-align: middle;
   background-color: #f2f2f2;
   border: 2px solid rgba(0,0,0,0);
   text-transform: uppercase;
@@ -378,11 +380,11 @@ input.count {
   top: 8px;
 }
 
-.appointment-item button:hover path {
+.date:hover path {
   fill: #000000;
 }
 
-.appointment-item button:focus path {
+.date:focus path {
   fill: #81b3d2;
 }
 
@@ -715,14 +717,14 @@ button.minus {
   width: 35px;
 }
 
-.sorting-order a:hover path{
+.sorting-order-icon:hover path{
   fill: #000000;
 }
 
-.sorting-order a:focus path,
-a.current-sorting-order path,
-a.current-sorting-order:hover path,
-a.current-sorting-order:focus path {
+.sorting-order-icon:focus path,
+.sorting-order-icon.current path,
+.sorting-order-icon.current:hover path,
+.sorting-order-icon.current:focus path {
   fill: #81b3d2;
 }
 
@@ -813,6 +815,7 @@ a.current-sorting-order:focus path {
   padding-left: 16px;
   padding-right: 16px;
   text-align: center;
+  vertical-align: top;
 }
 
 .brown.catalog-button {
@@ -823,6 +826,7 @@ a.current-sorting-order:focus path {
   display: inline-block;
   min-width: 110px;
   margin-right: 6px;
+  vertical-align: top;
 }
 
 a.hotel-name {
